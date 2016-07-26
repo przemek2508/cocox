@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=TIM INPUT.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\TIM INPUT -TC:\CooCox\CoIDE\configuration\ProgramData\TIM INPUT/arm-gcc-link.ld -g">
+      <target file="TIM INPUT.elf" lastModified="153c8146057">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="153c812d1e0"/>
+         <source file="..\obj\main.o" lastModified="153c812d225"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="153c812d28f"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="153c8145e7e"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="153c812d31f"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="153c812d362"/>
+         <source file="..\obj\misc.o" lastModified="153c812d3a1"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="153c812d446"/>
+      </target>
+   </processor>
+</history>

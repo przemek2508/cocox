@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=USART1.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\USART1 -TC:\CooCox\CoIDE\configuration\ProgramData\USART1/arm-gcc-link.ld -g">
+      <target file="USART1.elf" lastModified="153846f6b25">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="153846f65d4"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="153846f6607"/>
+         <source file="..\obj\main.o" lastModified="153846f6647"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="153846f66b3"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="153846f6702"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="153846f6743"/>
+         <source file="..\obj\syscalls.o" lastModified="153846f6784"/>
+         <source file="..\obj\USART1.o" lastModified="153846f67ca"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="153846f682c"/>
+         <source file="..\obj\misc.o" lastModified="153846f6872"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="153846f691c"/>
+      </target>
+   </processor>
+</history>

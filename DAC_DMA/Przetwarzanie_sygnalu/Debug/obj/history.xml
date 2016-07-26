@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\DAC_DMA\cmsis_lib\include -I..\..\..\workspace\DAC_DMA -I..\..\..\workspace -I..\..\..\workspace\DAC_DMA\cmsis_lib -I..\..\.. -I..\..\..\workspace\DAC_DMA\cmsis_boot -I..\..\..\workspace\DAC_DMA\cmsis">
+      <target file="stm32f4xx_gpio.o" lastModified="1552c0bb823">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15433e71f18"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="1552c0bb8b8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="15433e746b8"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="1552c0bb7d6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="15433e7d9e9"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="1552c0bba03">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15433e7b75a"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1552c0bb865">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15433e6fade"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1552c0bb6c7">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15433e6fad0"/>
+      </target>
+      <target file="main.o" lastModified="1552c0bb708">
+         <source file="..\..\..\main.c" lastModified="1552bf4ce51"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="1552c0bb695">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="15433e85d32"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="1552c0bb915">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="154bf830b8d"/>
+      </target>
+      <target file="DAC.o" lastModified="1552c0bb646">
+         <source file="..\..\..\DAC.c" lastModified="1552c0bb3d7"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1552c0bb771">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15433e70981"/>
+      </target>
+      <target file="misc.o" lastModified="1552c0bb95d">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="154bf19ac37"/>
+      </target>
+   </processor>
+</history>

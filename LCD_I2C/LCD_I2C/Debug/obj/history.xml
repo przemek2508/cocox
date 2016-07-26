@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\LCD_I2C\cmsis -I..\..\..\workspace\LCD_I2C\cmsis_lib\include -I..\..\..\workspace -I..\..\..\workspace\LCD_I2C -I..\..\..\workspace\LCD_I2C\cmsis_lib -I..\..\.. -I..\..\..\workspace\LCD_I2C\cmsis_boot">
+      <target file="syscalls.o" lastModified="155898ef80f">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15589867c86"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="155898ef7a1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="155849da349"/>
+      </target>
+      <target file="LCD_I2C.o" lastModified="155898ef8b3">
+         <source file="..\..\..\LCD_I2C.c" lastModified="1558948ccac"/>
+      </target>
+      <target file="I2C.o" lastModified="155898ef75d">
+         <source file="..\..\..\I2C.c" lastModified="1558945f242"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="155898ef7d9">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="155849d865a"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="155898ef862">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="155849dbbb1"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="155898ef644">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="155849d8652"/>
+      </target>
+      <target file="main.o" lastModified="155898ef6b2">
+         <source file="..\..\..\main.c" lastModified="155898ef495"/>
+      </target>
+      <target file="delay.o" lastModified="155898ef619">
+         <source file="..\..\..\delay.c" lastModified="15584ad9170"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="155898ef722">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="155849d94fc"/>
+      </target>
+   </processor>
+</history>

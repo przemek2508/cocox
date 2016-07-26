@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=SERIAL.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\SERIAL -TC:\CooCox\CoIDE\configuration\ProgramData\SERIAL/arm-gcc-link.ld -g">
+      <target file="SERIAL.elf" lastModified="15391bb770c">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15391bb72e9"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15391bb7318"/>
+         <source file="..\obj\main.o" lastModified="15391bb7355"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15391bb73be"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15391bb740a"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15391bb7449"/>
+         <source file="..\obj\syscalls.o" lastModified="15391bb7487"/>
+         <source file="..\obj\misc.o" lastModified="15391bb74c4"/>
+         <source file="..\obj\serial.o" lastModified="15391bb7509"/>
+      </target>
+   </processor>
+</history>

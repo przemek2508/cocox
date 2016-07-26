@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Pomiar_sygnalu_okresu_z_TIM4_na_TIM3 - Kopia\cmsis -I..\..\..\workspace -I..\..\..\workspace\Pomiar_sygnalu_okresu_z_TIM4_na_TIM3 - Kopia\cmsis_lib\include -I..\..\.. -I..\..\..\workspace\Pomiar_sygnalu_okresu_z_TIM4_na_TIM3 - Kopia\cmsis_lib -I..\..\..\workspace\Pomiar_sygnalu_okresu_z_TIM4_na_TIM3 - Kopia\cmsis_boot -I..\..\..\workspace\Pomiar_sygnalu_okresu_z_TIM4_na_TIM3 - Kopia">
+      <target file="stm32f4xx_gpio.o" lastModified="153c812468a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1538748a97b"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="153c812463d">
+         <source file="..\..\..\stm32f4xx_it.c" lastModified="153c812434e"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="153c81247b3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="153874912f3"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="153c81246c9">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="153c7ff3ca8"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="153c8124554">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15387489312"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="153c8124525">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1538748c057"/>
+      </target>
+      <target file="main.o" lastModified="153c8124599">
+         <source file="..\..\..\main.c" lastModified="153c8124342"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="153c8124601">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15387489cd1"/>
+      </target>
+      <target file="misc.o" lastModified="153c812470a">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1538748d3b3"/>
+      </target>
+   </processor>
+</history>

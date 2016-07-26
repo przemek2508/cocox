@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=LCD_I2C.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\LCD_I2C -TC:\CooCox\CoIDE\configuration\ProgramData\LCD_I2C/arm-gcc-link.ld -g">
+      <target file="LCD_I2C.elf" lastModified="155898efa93">
+         <source file="..\obj\delay.o" lastModified="155898ef619"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="155898ef644"/>
+         <source file="..\obj\main.o" lastModified="155898ef6b2"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="155898ef722"/>
+         <source file="..\obj\I2C.o" lastModified="155898ef75d"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="155898ef7a1"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="155898ef7d9"/>
+         <source file="..\obj\syscalls.o" lastModified="155898ef80f"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="155898ef862"/>
+         <source file="..\obj\LCD_I2C.o" lastModified="155898ef8b3"/>
+      </target>
+   </processor>
+</history>

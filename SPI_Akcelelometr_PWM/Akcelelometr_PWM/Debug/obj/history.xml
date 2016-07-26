@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\SPI_Akcelelometr_PWM -I..\..\..\workspace\SPI_Akcelelometr_PWM\cmsis_lib\include -I..\..\..\workspace -I..\..\..\workspace\SPI_Akcelelometr_PWM\cmsis_boot -I..\..\..\workspace\SPI_Akcelelometr_PWM\cmsis_lib -I..\..\.. -I..\..\..\workspace\SPI_Akcelelometr_PWM\cmsis">
+      <target file="syscalls.o" lastModified="1541518a30f">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="153919746a7"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1541518a166">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="153805b56aa"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="1541518a876">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="153805b7907"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1541518a241">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="153805b1740"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15415189c47">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15391bb5a61"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15415189ba1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15381aa05f2"/>
+      </target>
+      <target file="main.o" lastModified="15415189d24">
+         <source file="..\..\..\main.c" lastModified="154151894e5"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="1541518a537">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="153805b6749"/>
+      </target>
+      <target file="TIM4.o" lastModified="1541518a057">
+         <source file="..\..\..\TIM4.c" lastModified="1539191940f"/>
+      </target>
+      <target file="SPI.o" lastModified="1541518a3eb">
+         <source file="..\..\..\SPI.c" lastModified="15380afc317"/>
+      </target>
+      <target file="GPIO.o" lastModified="15415189f67">
+         <source file="..\..\..\GPIO.c" lastModified="15380ae06fd"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15415189e94">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="153805b38db"/>
+      </target>
+      <target file="misc.o" lastModified="1541518a617">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15381ac205d"/>
+      </target>
+   </processor>
+</history>

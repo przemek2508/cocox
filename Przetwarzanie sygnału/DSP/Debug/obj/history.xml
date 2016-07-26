@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -D__FPU_PRESENT = 1 -DARM_MATH_CM4 -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\TransformFunctions -I..\..\..\workspace\Przetwarzanie sygnału\cmsis_lib\include -I..\..\..\workspace\Przetwarzanie sygnału\cmsis_lib -I..\..\..\workspace\Przetwarzanie sygnału\cmsis_boot -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\DSP_Lib\Examples\arm_convolution_example\ARM -I..\..\..\workspace\Przetwarzanie sygnału\cmsis -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\DSP_Lib\Source\FilteringFunctions -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\StatisticsFunctions -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\FastMathFunctions -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\DSP_Lib\Examples\arm_convolution_example -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\DSP_Lib\Examples -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\ComplexMathFunctions -I..\..\..\workspace\Przetwarzanie sygnału -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\CommonTables -I..\..\..\workspace -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\DSP_Lib\Source\BasicMathFunctions -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS -I..\..\.. -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries">
+      <target file="stm32f4xx_gpio.o" lastModified="154a0382203">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15433d571f8"/>
+      </target>
+      <target file="arm_cmplx_mag_f32.o" lastModified="154a0382167">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\ComplexMathFunctions\arm_cmplx_mag_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="math_helper.o" lastModified="154a038233b">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\DSP_Lib\Examples\arm_fir_example\ARM\math_helper.c" lastModified="1501f3ef966"/>
+      </target>
+      <target file="arm_rfft_init_f32.o" lastModified="154a038204e">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\TransformFunctions\arm_rfft_init_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="154a0381f36">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15414ae5807"/>
+      </target>
+      <target file="arm_fir_f32.o" lastModified="154a03821c5">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\DSP_Lib\Source\FilteringFunctions\arm_fir_f32.c" lastModified="1501f3f04ae"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="154a03824b2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15433d5d73c"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="154a03820ea">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="15433d5b097"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154a0382242">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="154359f528d"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="154a03822de">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="15433d585cf"/>
+      </target>
+      <target file="arm_common_tables.o" lastModified="154a0381e2c">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\CommonTables\arm_common_tables.c" lastModified="1316594a650"/>
+      </target>
+      <target file="arm_cfft_radix4_f32.o" lastModified="154a0381dee">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\TransformFunctions\arm_cfft_radix4_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="arm_fir_init_f32.o" lastModified="154a0382129">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4xx_DSP_StdPeriph_Lib_V1.6.1\Libraries\CMSIS\DSP_Lib\Source\FilteringFunctions\arm_fir_init_f32.c" lastModified="1501f3f047c"/>
+      </target>
+      <target file="ADC.o" lastModified="154a038208d">
+         <source file="..\..\..\ADC.c" lastModified="154a03489db"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="154a0381fe1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15433d562b2"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="154a0381f07">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="15433d5b0a2"/>
+      </target>
+      <target file="arm_rfft_f32.o" lastModified="154a0381e7a">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\TransformFunctions\arm_rfft_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="arm_max_f32.o" lastModified="154a03823b8">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\StatisticsFunctions\arm_max_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="syscalls.o" lastModified="154a0382290">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15414ae3b7d"/>
+      </target>
+      <target file="arm_sin_f32.o" lastModified="154a038237a">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\FastMathFunctions\arm_sin_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="arm_cfft_radix4_init_f32.o" lastModified="154a0382416">
+         <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\TransformFunctions\arm_cfft_radix4_init_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="DAC.o" lastModified="154a0381eb9">
+         <source file="..\..\..\DAC.c" lastModified="15435fdf3a1"/>
+      </target>
+      <target file="main.o" lastModified="154a0381f84">
+         <source file="..\..\..\main.c" lastModified="154a0381bdc"/>
+      </target>
+   </processor>
+</history>

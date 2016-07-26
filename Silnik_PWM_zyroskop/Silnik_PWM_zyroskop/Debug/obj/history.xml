@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Silnik_PWM_zyroskop\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\Silnik_PWM_zyroskop\cmsis_lib -I..\..\..\workspace\Silnik_PWM_zyroskop\cmsis -I..\..\.. -I..\..\..\workspace\Silnik_PWM_zyroskop -I..\..\..\workspace\Silnik_PWM_zyroskop\cmsis_lib\include">
+      <target file="stm32f4xx_gpio.o" lastModified="154152c7ce5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="154143f7ba5"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="154152c7eae">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="154143face6"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154152c7d24">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="154143f63f0"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="154152c7be8">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="154143f63ec"/>
+      </target>
+      <target file="TIM.o" lastModified="154152c7e05">
+         <source file="..\..\..\TIM.c" lastModified="15415260b96"/>
+      </target>
+      <target file="main.o" lastModified="154152c7c2b">
+         <source file="..\..\..\main.c" lastModified="154152c7a04"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="154152c7dc6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="154143f89c5"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="154152c7c98">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="154143f6fcf"/>
+      </target>
+      <target file="SPI.o" lastModified="154152c7d6a">
+         <source file="..\..\..\SPI.c" lastModified="15414501920"/>
+      </target>
+   </processor>
+</history>

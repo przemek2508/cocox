@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Akcelelometr_PWM.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Akcelelometr_PWM -TC:\CooCox\CoIDE\configuration\ProgramData\Akcelelometr_PWM/arm-gcc-link.ld -g">
+      <target file="Akcelelometr_PWM.elf" lastModified="1541518aaf7">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15415189ba1"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15415189c47"/>
+         <source file="..\obj\main.o" lastModified="15415189d24"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15415189e94"/>
+         <source file="..\obj\GPIO.o" lastModified="15415189f67"/>
+         <source file="..\obj\TIM4.o" lastModified="1541518a057"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1541518a166"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1541518a241"/>
+         <source file="..\obj\syscalls.o" lastModified="1541518a30f"/>
+         <source file="..\obj\SPI.o" lastModified="1541518a3eb"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="1541518a537"/>
+         <source file="..\obj\misc.o" lastModified="1541518a617"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1541518a876"/>
+      </target>
+   </processor>
+</history>

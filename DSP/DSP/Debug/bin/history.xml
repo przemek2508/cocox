@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=DSP.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\DSP -TC:\CooCox\CoIDE\configuration\ProgramData\DSP/arm-gcc-link.ld -g -LD:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m -lc -LD:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m -lg -LD:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m -lm -LD:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m -lnosys -LD:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m -lrdimon">
+      <target file="DSP.elf" lastModified="155026b1fe1">
+         <source file="D:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m\libc.a" lastModified="151badb1250"/>
+         <source file="D:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m\libg.a" lastModified="151badb1250"/>
+         <source file="D:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m\libm.a" lastModified="151badb1250"/>
+         <source file="D:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m\libnosys.a" lastModified="151badafae0"/>
+         <source file="D:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m\librdimon.a" lastModified="151badb1250"/>
+         <source file="..\obj\arm_cfft_radix4_f32.o" lastModified="155026b152f"/>
+         <source file="..\obj\arm_common_tables.o" lastModified="155026b156f"/>
+         <source file="..\obj\arm_rfft_f32.o" lastModified="155026b15b5"/>
+         <source file="..\obj\DAC.o" lastModified="155026b1604"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="155026b164b"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="155026b1677"/>
+         <source file="..\obj\main.o" lastModified="155026b173b"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="155026b17bb"/>
+         <source file="..\obj\arm_rfft_init_f32.o" lastModified="155026b1824"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="155026b1870"/>
+         <source file="..\obj\ADC.o" lastModified="155026b18c4"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="155026b1924"/>
+         <source file="..\obj\splot.o" lastModified="155026b1974"/>
+         <source file="..\obj\arm_cmplx_mag_f32.o" lastModified="155026b19ba"/>
+         <source file="..\obj\arm_copy_f32.o" lastModified="155026b19fd"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="155026b1a44"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="155026b1a80"/>
+         <source file="..\obj\syscalls.o" lastModified="155026b1abb"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="155026b1b08"/>
+         <source file="..\obj\arm_cmplx_mult_cmplx_f32.o" lastModified="155026b1b45"/>
+         <source file="..\obj\math_helper.o" lastModified="155026b1b9b"/>
+         <source file="..\obj\misc.o" lastModified="155026b1bdb"/>
+         <source file="..\obj\arm_fill_f32.o" lastModified="155026b1c15"/>
+         <source file="..\obj\arm_sin_f32.o" lastModified="155026b1c56"/>
+         <source file="..\obj\arm_max_f32.o" lastModified="155026b1c90"/>
+         <source file="..\obj\arm_cfft_radix4_init_f32.o" lastModified="155026b1ce7"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="155026b1d83"/>
+      </target>
+   </processor>
+</history>

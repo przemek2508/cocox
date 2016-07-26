@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -D__FPU_PRESENT = 1 -DARM_MATH_CM4 -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\TransformFunctions -I..\..\..\workspace\DSP\cmsis_boot -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include -I..\..\..\workspace\DSP\cmsis -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\StatisticsFunctions -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\FastMathFunctions -I..\..\..\workspace\DSP\cmsis_lib -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\ComplexMathFunctions -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\CommonTables -I..\..\..\workspace -I..\..\..\workspace\DSP\math -I..\..\..\workspace\DSP\cmsis_lib\include -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS -I..\..\.. -I..\..\..\workspace\DSP -I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries">
+      <target file="arm_cmplx_mult_cmplx_f32.o" lastModified="155026b1b45">
+         <source file="..\..\..\math\arm_cmplx_mult_cmplx_f32.c" lastModified="1316526c950"/>
+      </target>
+      <target file="arm_copy_f32.o" lastModified="155026b19fd">
+         <source file="..\..\..\math\arm_copy_f32.c" lastModified="1316526c950"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="155026b1a44">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="154d8e28dee"/>
+      </target>
+      <target file="arm_cmplx_mag_f32.o" lastModified="155026b19ba">
+         <source file="..\..\..\math\arm_cmplx_mag_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="math_helper.o" lastModified="155026b1b9b">
+         <source file="..\..\..\math_helper.c" lastModified="1516d310cb3"/>
+      </target>
+      <target file="arm_rfft_init_f32.o" lastModified="155026b1824">
+         <source file="..\..\..\math\arm_rfft_init_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="arm_fill_f32.o" lastModified="155026b1c15">
+         <source file="..\..\..\math\arm_fill_f32.c" lastModified="1316526c950"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="155026b1677">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15414ae5807"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="155026b1d83">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="154d8e2e263"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="155026b1924">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="154d8e2cdf8"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="155026b1a80">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="154d8fb6141"/>
+      </target>
+      <target file="misc.o" lastModified="155026b1bdb">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="154d8e312be"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="155026b1b08">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="154d8e2b055"/>
+      </target>
+      <target file="arm_common_tables.o" lastModified="155026b156f">
+         <source file="..\..\..\math\arm_common_tables.c" lastModified="1316594a650"/>
+      </target>
+      <target file="arm_cfft_radix4_f32.o" lastModified="155026b152f">
+         <source file="..\..\..\math\arm_cfft_radix4_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="155026b1870">
+         <source file="..\..\..\stm32f4xx_it.c" lastModified="15502689216"/>
+      </target>
+      <target file="ADC.o" lastModified="155026b18c4">
+         <source file="..\..\..\ADC.c" lastModified="155026b1344"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="155026b17bb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="154d8e27fac"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="155026b164b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="154d8e2f837"/>
+      </target>
+      <target file="arm_rfft_f32.o" lastModified="155026b15b5">
+         <source file="..\..\..\math\arm_rfft_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="arm_max_f32.o" lastModified="155026b1c90">
+         <source file="..\..\..\math\arm_max_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="syscalls.o" lastModified="155026b1abb">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15414ae3b7d"/>
+      </target>
+      <target file="arm_sin_f32.o" lastModified="155026b1c56">
+         <source file="..\..\..\math\arm_sin_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="splot.o" lastModified="155026b1974">
+         <source file="..\..\..\splot.c" lastModified="15501577ee2"/>
+      </target>
+      <target file="arm_cfft_radix4_init_f32.o" lastModified="155026b1ce7">
+         <source file="..\..\..\math\arm_cfft_radix4_init_f32.c" lastModified="1316594a650"/>
+      </target>
+      <target file="DAC.o" lastModified="155026b1604">
+         <source file="..\..\..\DAC.c" lastModified="15501179af4"/>
+      </target>
+      <target file="main.o" lastModified="155026b173b">
+         <source file="..\..\..\main.c" lastModified="1550256cdb7"/>
+      </target>
+   </processor>
+</history>

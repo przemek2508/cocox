@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=DSP.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\DSP -TC:\CooCox\CoIDE\configuration\ProgramData\DSP/arm-gcc-link.ld -g -LD:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m -lc -LD:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m -lg -LD:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m -lm -LD:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m -lnosys -LD:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m -lrdimon">
+      <target file="DSP.elf" lastModified="15595f960fd">
+         <source file="D:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m\libc.a" lastModified="151badb1250"/>
+         <source file="D:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m\libg.a" lastModified="151badb1250"/>
+         <source file="D:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m\libm.a" lastModified="151badb1250"/>
+         <source file="D:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m\libnosys.a" lastModified="151badafae0"/>
+         <source file="D:\Programy\ARM Embedded\5.2 2015q4\arm-none-eabi\lib\armv7e-m\librdimon.a" lastModified="151badb1250"/>
+         <source file="..\obj\arm_q31_to_float.o" lastModified="15595f95173"/>
+         <source file="..\obj\arm_cfft_radix4_f32.o" lastModified="15595f9523d"/>
+         <source file="..\obj\arm_common_tables.o" lastModified="15595f9527c"/>
+         <source file="..\obj\arm_rfft_f32.o" lastModified="15595f952ca"/>
+         <source file="..\obj\arm_q15_to_float.o" lastModified="15595f952f9"/>
+         <source file="..\obj\DAC.o" lastModified="15595f95347"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="15595f95395"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15595f953c3"/>
+         <source file="..\obj\main.o" lastModified="15595f9548e"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15595f9553a"/>
+         <source file="..\obj\arm_rfft_init_f32.o" lastModified="15595f955a7"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="15595f955e5"/>
+         <source file="..\obj\arm_fir_init_q15.o" lastModified="15595f95624"/>
+         <source file="..\obj\ADC.o" lastModified="15595f95691"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="15595f956ef"/>
+         <source file="..\obj\arm_fir_init_f32.o" lastModified="15595f9571d"/>
+         <source file="..\obj\splot.o" lastModified="15595f957f8"/>
+         <source file="..\obj\arm_fir_fast_q15.o" lastModified="15595f95894"/>
+         <source file="..\obj\arm_copy_q15.o" lastModified="15595f958c3"/>
+         <source file="..\obj\arm_cmplx_mag_f32.o" lastModified="15595f95920"/>
+         <source file="..\obj\arm_copy_f32.o" lastModified="15595f9596e"/>
+         <source file="..\obj\arm_fir_q15.o" lastModified="15595f959cc"/>
+         <source file="..\obj\arm_fir_f32.o" lastModified="15595f95a1a"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15595f95a58"/>
+         <source file="..\obj\arm_float_to_q15.o" lastModified="15595f95a97"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15595f95ac5"/>
+         <source file="..\obj\syscalls.o" lastModified="15595f95b04"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="15595f95b42"/>
+         <source file="..\obj\arm_cmplx_mult_cmplx_f32.o" lastModified="15595f95b81"/>
+         <source file="..\obj\misc.o" lastModified="15595f95bbf"/>
+         <source file="..\obj\arm_fill_f32.o" lastModified="15595f95bee"/>
+         <source file="..\obj\arm_sin_f32.o" lastModified="15595f95c2c"/>
+         <source file="..\obj\arm_float_to_q31.o" lastModified="15595f95c6b"/>
+         <source file="..\obj\arm_max_f32.o" lastModified="15595f95c99"/>
+         <source file="..\obj\arm_cfft_radix4_init_f32.o" lastModified="15595f95ce7"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15595f95d83"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\kamod\cmsis_lib\include -I..\..\..\workspace -I..\..\..\workspace\kamod -I..\..\..\workspace\kamod\cmsis -I..\..\..\workspace\kamod\cmsis_lib -I..\..\.. -I..\..\..\workspace\kamod\cmsis_boot">
+      <target file="syscalls.o" lastModified="15515a4cbac">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="153919746a7"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15515a4cb43">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="153805b56aa"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15515a4cb77">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="153805b1740"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15515a4ca08">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15391bb5a61"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15515a4c9e0">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15381aa05f2"/>
+      </target>
+      <target file="main.o" lastModified="15515a4ca3c">
+         <source file="..\..\..\main.c" lastModified="15515a4c834"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="15515a4cc2b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="153805b6749"/>
+      </target>
+      <target file="TIM4.o" lastModified="15515a4cb02">
+         <source file="..\..\..\TIM4.c" lastModified="1539191940f"/>
+      </target>
+      <target file="SPI.o" lastModified="15515a4cbe0">
+         <source file="..\..\..\SPI.c" lastModified="155159e4fbc"/>
+      </target>
+      <target file="GPIO.o" lastModified="15515a4cacd">
+         <source file="..\..\..\GPIO.c" lastModified="155159e4fcb"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15515a4ca99">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="153805b38db"/>
+      </target>
+      <target file="misc.o" lastModified="15515a4cc62">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15381ac205d"/>
+      </target>
+   </processor>
+</history>

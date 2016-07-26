@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Pomiar_okresu_syg_wej.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Pomiar_okresu_syg_wej -TC:\CooCox\CoIDE\configuration\ProgramData\Pomiar_okresu_syg_wej/arm-gcc-link.ld -g">
+      <target file="Pomiar_okresu_syg_wej.elf" lastModified="15387aa4df1">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15387aa48c0"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15387aa48f7"/>
+         <source file="..\obj\main.o" lastModified="15387aa493e"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15387aa49a9"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="15387aa49ec"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15387aa4a3a"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15387aa4a80"/>
+         <source file="..\obj\syscalls.o" lastModified="15387aa4ac8"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="15387aa4b10"/>
+         <source file="..\obj\misc.o" lastModified="15387aa4b57"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15387aa4c02"/>
+      </target>
+   </processor>
+</history>

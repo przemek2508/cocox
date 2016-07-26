@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\TransformFunctions /I..\..\..\workspace\DSP\cmsis_boot /I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include /I..\..\..\workspace\DSP\cmsis /I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\StatisticsFunctions /I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\FastMathFunctions /I..\..\..\workspace\DSP\cmsis_lib /I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\ComplexMathFunctions /I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\DSP_Lib\Source\CommonTables /I..\..\..\workspace /I..\..\..\workspace\DSP\math /I..\..\..\workspace\DSP\cmsis_lib\include /I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS /I..\..\.. /I..\..\..\workspace\DSP /I..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="154d8e28dee">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\math\arm_cfft_radix4_f32.c" lastModified="1316594a650">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cm0.h" lastModified="13349a793d8">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cmInstr.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\math\arm_fill_f32.c" lastModified="1316526c950">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_common_tables.h" lastModified="13349a78820">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="154d8e312bd">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cm4_simd.h" lastModified="13349a793d8">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="154d8e312be">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="154d8e27fac">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="154d8e2f837">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="154d8e27faa">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\math\arm_cfft_radix4_init_f32.c" lastModified="1316594a650">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\math\arm_cmplx_mag_f32.c" lastModified="1316594a650">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h" lastModified="154d8e2f836">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="154d8e2cdf8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="154d8e2cdf6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\math\arm_max_f32.c" lastModified="1316594a650">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="154d8e2b055">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\math\arm_copy_f32.c" lastModified="1316526c950">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.h" lastModified="154d9ede782">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="154d8e2b054">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.c" lastModified="15502689216">
+         <include file="..\..\..\stm32f4xx_it.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="15414ae5bef">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cmInstr.h" lastModified="13349a793d8">
+      </source>
+      <source file="..\..\..\math\arm_cmplx_mult_cmplx_f32.c" lastModified="1316526c950">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\math\arm_sin_f32.c" lastModified="1316594a650">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="154d8e28dee">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="155012b92c3">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+         <include file="..\..\..\math_helper.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\stm32f4xx_it.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="15414ae4b1d">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="15414aea23f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\splot.h" lastModified="15501577f02">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cm4.h" lastModified="13349a793d8">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cmInstr.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cmFunc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="1550256cdb7">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\DAC.h" lastModified="155012c52a5">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\splot.c" lastModified="15501577ee2">
+         <include file="..\..\..\splot.h"/>
+      </source>
+      <source file="..\..\..\DAC.c" lastModified="15501179af4">
+         <include file="..\..\..\DAC.h"/>
+      </source>
+      <source file="..\..\..\ADC.h" lastModified="154bf0c79b3">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h" lastModified="13349a79ba8">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cm4.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cm3.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cm0.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cm3.h" lastModified="13349a793d8">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cmInstr.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\ADC.c" lastModified="155026b1344">
+         <include file="..\..\..\ADC.h"/>
+      </source>
+      <source file="..\..\..\math\arm_common_tables.c" lastModified="1316594a650">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\math_helper.h" lastModified="1516d310cb3">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\math_helper.c" lastModified="1516d31109b">
+         <include file="..\..\..\math_helper.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\core_cmFunc.h" lastModified="13349a793d8">
+      </source>
+      <source file="..\..\..\math\arm_rfft_f32.c" lastModified="1316594a650">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\math\arm_rfft_init_f32.c" lastModified="1316594a650">
+         <include file="..\..\..\..\..\..\..\Users\Przemek\Desktop\MIKROKONTROLERY\STM32F4-Discovery_FW_V1.1.0\Libraries\CMSIS\Include\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="15414ae5807">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="154d8e2e263">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15414ae5807">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="154d8e2e261">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="154d8fb6141">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

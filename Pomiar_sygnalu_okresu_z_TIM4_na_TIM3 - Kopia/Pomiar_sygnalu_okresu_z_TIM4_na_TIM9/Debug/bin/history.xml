@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Pomiar_sygnalu_okresu_z_TIM4_na_TIM9.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Pomiar_sygnalu_okresu_z_TIM4_na_TIM3 -TC:\CooCox\CoIDE\configuration\ProgramData\Pomiar_sygnalu_okresu_z_TIM4_na_TIM3/arm-gcc-link.ld -g">
+      <target file="Pomiar_sygnalu_okresu_z_TIM4_na_TIM9.elf" lastModified="153c81249b3">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="153c8124525"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="153c8124554"/>
+         <source file="..\obj\main.o" lastModified="153c8124599"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="153c8124601"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="153c812463d"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="153c812468a"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="153c81246c9"/>
+         <source file="..\obj\misc.o" lastModified="153c812470a"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="153c81247b3"/>
+      </target>
+   </processor>
+</history>

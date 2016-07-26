@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\USB HID -I..\..\..\workspace\USB HID\usb_hid_lib -I..\..\..\workspace\USB HID\cmsis_lib\include -I..\..\..\workspace -I..\..\..\workspace\USB HID\cmsis_lib -I..\..\.. -I..\..\..\workspace\USB HID\usb_hid_lib\inc -I..\..\..\workspace\USB HID\cmsis -I..\..\..\workspace\USB HID\cmsis_boot">
+      <target file="stm32f4xx_gpio.o" lastModified="153c872193e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="153c86f9828"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="153c8721c1d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="153c86fef96"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="153c8721989">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="153c86f82df"/>
+      </target>
+      <target file="usb_dcd_int.o" lastModified="153c8721a56">
+         <source file="..\..\..\usb_hid_lib\src\usb_dcd_int.c" lastModified="153c86fef87"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="153c8721731">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="153c86f82dc"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="153c87216fe">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="153c86fab05"/>
+      </target>
+      <target file="usb_dcd.o" lastModified="153c8721b54">
+         <source file="..\..\..\usb_hid_lib\src\usb_dcd.c" lastModified="153c86fef87"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="153c8721a9c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="153c86fef90"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="153c8720c89">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="153c86fef9d"/>
+      </target>
+      <target file="main.o" lastModified="153c872180f">
+         <source file="..\..\..\main.c" lastModified="153c86f624e"/>
+      </target>
+      <target file="usb_core.o" lastModified="153c8721665">
+         <source file="..\..\..\usb_hid_lib\src\usb_core.c" lastModified="153c86fef86"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="153c872187f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="153c86f82e6"/>
+      </target>
+      <target file="misc.o" lastModified="153c8721ae2">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="153c86fbff5"/>
+      </target>
+   </processor>
+</history>
